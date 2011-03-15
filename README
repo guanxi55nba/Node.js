@@ -1,1 +1,7 @@
-"nodechat" is a multiple groups instant chatting room application. 
+"nodechat" is a multiple group instant chatting room application. 
+The basic function: 
+1. User could join the chat room by input one name ( choosing one group is optional, you could choose one or not)
+2. After you join the chat room, you could see all the messages happened before, and you could communicate with other persons in that group. 
+3. It is instant chatting room. It use Socket.io as the transmission technology, which could select the most capable transport at runtime. The supported transports are WebSocket, Adobe Flash Socket, AJAX long polling, AJAX multipart streaming, Forever Iframe, JSONP Polling. So the server will push the chat messages to the user if there are new ones.
+
+
